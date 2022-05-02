@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Learning\\GEEK_BRAINS\\00.Bootcamp\\00.Bootcamp.csproj": {}
+    "C:\\Learning\\GEEK_BRAINS\\00.Bootcamp\\Programming\\Programming.csproj": {}
   },
   "projects": {
-    "C:\\Learning\\GEEK_BRAINS\\00.Bootcamp\\00.Bootcamp.csproj": {
+    "C:\\Learning\\GEEK_BRAINS\\00.Bootcamp\\Programming\\Programming.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Learning\\GEEK_BRAINS\\00.Bootcamp\\00.Bootcamp.csproj",
-        "projectName": "00.Bootcamp",
-        "projectPath": "C:\\Learning\\GEEK_BRAINS\\00.Bootcamp\\00.Bootcamp.csproj",
+        "projectUniqueName": "C:\\Learning\\GEEK_BRAINS\\00.Bootcamp\\Programming\\Programming.csproj",
+        "projectName": "Programming",
+        "projectPath": "C:\\Learning\\GEEK_BRAINS\\00.Bootcamp\\Programming\\Programming.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Learning\\GEEK_BRAINS\\00.Bootcamp\\obj\\",
+        "outputPath": "C:\\Learning\\GEEK_BRAINS\\00.Bootcamp\\Programming\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"

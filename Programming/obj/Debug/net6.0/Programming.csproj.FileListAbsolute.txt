@@ -1,0 +1,16 @@
+C:\Learning\GEEK_BRAINS\00.Bootcamp\Programming\obj\Debug\net6.0\Programming.GlobalUsings.g.cs
+C:\Learning\GEEK_BRAINS\00.Bootcamp\Programming\obj\Debug\net6.0\Programming.csproj.AssemblyReference.cache
+C:\Learning\GEEK_BRAINS\00.Bootcamp\Programming\obj\Debug\net6.0\Programming.GeneratedMSBuildEditorConfig.editorconfig
+C:\Learning\GEEK_BRAINS\00.Bootcamp\Programming\obj\Debug\net6.0\Programming.AssemblyInfoInputs.cache
+C:\Learning\GEEK_BRAINS\00.Bootcamp\Programming\obj\Debug\net6.0\Programming.AssemblyInfo.cs
+C:\Learning\GEEK_BRAINS\00.Bootcamp\Programming\obj\Debug\net6.0\Programming.csproj.CoreCompileInputs.cache
+C:\Learning\GEEK_BRAINS\00.Bootcamp\Programming\bin\Debug\net6.0\Programming.exe
+C:\Learning\GEEK_BRAINS\00.Bootcamp\Programming\bin\Debug\net6.0\Programming.deps.json
+C:\Learning\GEEK_BRAINS\00.Bootcamp\Programming\bin\Debug\net6.0\Programming.runtimeconfig.json
+C:\Learning\GEEK_BRAINS\00.Bootcamp\Programming\bin\Debug\net6.0\Programming.dll
+C:\Learning\GEEK_BRAINS\00.Bootcamp\Programming\bin\Debug\net6.0\ref\Programming.dll
+C:\Learning\GEEK_BRAINS\00.Bootcamp\Programming\bin\Debug\net6.0\Programming.pdb
+C:\Learning\GEEK_BRAINS\00.Bootcamp\Programming\obj\Debug\net6.0\Programming.dll
+C:\Learning\GEEK_BRAINS\00.Bootcamp\Programming\obj\Debug\net6.0\ref\Programming.dll
+C:\Learning\GEEK_BRAINS\00.Bootcamp\Programming\obj\Debug\net6.0\Programming.pdb
+C:\Learning\GEEK_BRAINS\00.Bootcamp\Programming\obj\Debug\net6.0\Programming.genruntimeconfig.cache
