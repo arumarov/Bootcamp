@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Learning\\GEEK_BRAINS\\00.Bootcamp\\Programming\\Programming.csproj": {}
+    "C:\\02.Learning\\GEEK_BRAINS\\00.Bootcamp\\Programming\\Programming.csproj": {}
   },
   "projects": {
-    "C:\\Learning\\GEEK_BRAINS\\00.Bootcamp\\Programming\\Programming.csproj": {
+    "C:\\02.Learning\\GEEK_BRAINS\\00.Bootcamp\\Programming\\Programming.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Learning\\GEEK_BRAINS\\00.Bootcamp\\Programming\\Programming.csproj",
+        "projectUniqueName": "C:\\02.Learning\\GEEK_BRAINS\\00.Bootcamp\\Programming\\Programming.csproj",
         "projectName": "Programming",
-        "projectPath": "C:\\Learning\\GEEK_BRAINS\\00.Bootcamp\\Programming\\Programming.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Learning\\GEEK_BRAINS\\00.Bootcamp\\Programming\\obj\\",
+        "projectPath": "C:\\02.Learning\\GEEK_BRAINS\\00.Bootcamp\\Programming\\Programming.csproj",
+        "packagesPath": "C:\\Users\\aruma\\.nuget\\packages\\",
+        "outputPath": "C:\\02.Learning\\GEEK_BRAINS\\00.Bootcamp\\Programming\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\aruma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -52,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.2.21505.57\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
