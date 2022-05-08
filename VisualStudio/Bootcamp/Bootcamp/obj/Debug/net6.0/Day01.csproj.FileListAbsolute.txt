@@ -1,0 +1,15 @@
+C:\02.Learning\GEEK_BRAINS\00.Bootcamp\VisualStudio\Bootcamp\Bootcamp\bin\Debug\net6.0\Day01.exe
+C:\02.Learning\GEEK_BRAINS\00.Bootcamp\VisualStudio\Bootcamp\Bootcamp\bin\Debug\net6.0\Day01.deps.json
+C:\02.Learning\GEEK_BRAINS\00.Bootcamp\VisualStudio\Bootcamp\Bootcamp\bin\Debug\net6.0\Day01.runtimeconfig.json
+C:\02.Learning\GEEK_BRAINS\00.Bootcamp\VisualStudio\Bootcamp\Bootcamp\bin\Debug\net6.0\Day01.dll
+C:\02.Learning\GEEK_BRAINS\00.Bootcamp\VisualStudio\Bootcamp\Bootcamp\bin\Debug\net6.0\Day01.pdb
+C:\02.Learning\GEEK_BRAINS\00.Bootcamp\VisualStudio\Bootcamp\Bootcamp\obj\Debug\net6.0\Day01.csproj.AssemblyReference.cache
+C:\02.Learning\GEEK_BRAINS\00.Bootcamp\VisualStudio\Bootcamp\Bootcamp\obj\Debug\net6.0\Day01.GeneratedMSBuildEditorConfig.editorconfig
+C:\02.Learning\GEEK_BRAINS\00.Bootcamp\VisualStudio\Bootcamp\Bootcamp\obj\Debug\net6.0\Day01.AssemblyInfoInputs.cache
+C:\02.Learning\GEEK_BRAINS\00.Bootcamp\VisualStudio\Bootcamp\Bootcamp\obj\Debug\net6.0\Day01.AssemblyInfo.cs
+C:\02.Learning\GEEK_BRAINS\00.Bootcamp\VisualStudio\Bootcamp\Bootcamp\obj\Debug\net6.0\Day01.csproj.CoreCompileInputs.cache
+C:\02.Learning\GEEK_BRAINS\00.Bootcamp\VisualStudio\Bootcamp\Bootcamp\obj\Debug\net6.0\Day01.dll
+C:\02.Learning\GEEK_BRAINS\00.Bootcamp\VisualStudio\Bootcamp\Bootcamp\obj\Debug\net6.0\refint\Day01.dll
+C:\02.Learning\GEEK_BRAINS\00.Bootcamp\VisualStudio\Bootcamp\Bootcamp\obj\Debug\net6.0\Day01.pdb
+C:\02.Learning\GEEK_BRAINS\00.Bootcamp\VisualStudio\Bootcamp\Bootcamp\obj\Debug\net6.0\Day01.genruntimeconfig.cache
+C:\02.Learning\GEEK_BRAINS\00.Bootcamp\VisualStudio\Bootcamp\Bootcamp\obj\Debug\net6.0\ref\Day01.dll
