@@ -3,7 +3,4 @@
 
 // ваыикка89мамвкм9 >==> ваыиккамамвкм
 
-
-ClearStringTest01();
-ClearStringTest02();
-ClearStringTest03();
+Day01.Ex001.ClearString("231");
