@@ -16,26 +16,33 @@
 
 
 // Решение с помощью for:
-double fibo(int n)
-{
-    if (n==1 || n == 2) return 1;
-    double a = 0;
-    double b = 1;
-    double c = 0;
+// double fibo(int n)
+// {
+//     if (n==1 || n == 2) return 1;
+//     double a = 0;
+//     double b = 1;
+//     double c = 0;
 
-    for (int i = 1; i < n; i++)
-    {
-        c = a + b;
-        a = b;
-        b = c;
-    }
-    return c;
-}
+//     for (int i = 1; i < n; i++)
+//     {
+//         c = a + b;
+//         a = b;
+//         b = c;
+//     }
+//     return c;
+// }
 
-DateTime dt = DateTime.Now;
-System.Console.WriteLine(dt);
+// DateTime dt = DateTime.Now;
+// System.Console.WriteLine(dt);
 
-System.Console.WriteLine(fibo(6));
+// System.Console.WriteLine(fibo(6));
 
-System.Console.WriteLine(DateTime.Now);
-System.Console.WriteLine((DateTime.Now - dt).TotalMilliseconds);
+// System.Console.WriteLine(DateTime.Now);
+// System.Console.WriteLine((DateTime.Now - dt).TotalMilliseconds);
+
+// ЗАДАЧА 3. 
+//Завершите решение так, чтобы оно сортировало переданные в массиве числа. 
+// Если функция передает пустой массив или значение null/nil, то она должна возвращать пустой массив. 
+    if (nums == null) return new int[0];
+    else System.Array.Sort(nums);
+    return nums;
