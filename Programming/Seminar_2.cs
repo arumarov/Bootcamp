@@ -43,6 +43,56 @@
 // ЗАДАЧА 3. 
 //Завершите решение так, чтобы оно сортировало переданные в массиве числа. 
 // Если функция передает пустой массив или значение null/nil, то она должна возвращать пустой массив. 
+// int[] SortNumbers(int[] nums)
+// {
+//     if (nums == null) return new int[0];
+//     else System.Array.Sort(nums);
+//     return nums;
+// }
+// такое решение является читерством
+
+// Если нам дают какие-то данные(например массив), то не стоит их изменять, не оставляя исходных данных
+// Решение с
+
+int[] SortNumbers(int[] nums)
+{
     if (nums == null) return new int[0];
-    else System.Array.Sort(nums);
-    return nums;
+    int size = nums.Length;
+    int[] temp = new int[nums.Length];
+    for(int i = 0; i < size; i++)
+    {
+        temp[i] = nums[i];
+    }
+
+    // System.Array.Sort(temp);
+    // Выполняем сортировку пузырьком:
+    for(int i = 0; i < size-1; i++)
+    {
+        for(int j = 0; j < size-1; j++)
+        {
+            if(temp[j]>temp[j+1])
+            {
+                int t = temp[j];
+                temp[j] = temp[j+1];
+                temp[j+1] = t;
+            }
+        }
+    }
+// Код работает, но насколько он хорош?
+
+
+    return temp;
+}
+
+int[] arr = {1, 2, 3, 7, 6, 5, 4, 3};
+
+Console.WriteLine("arr:");
+Console.WriteLine(String.Join(' ', arr));
+
+int[] arrSort = SortNumbers(arr);
+
+Console.WriteLine("arr:");
+Console.WriteLine(String.Join(' ', arr));
+
+Console.WriteLine("arrSort:");
+Console.WriteLine(String.Join(' ', arrSort));
