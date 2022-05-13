@@ -1,15 +1,10 @@
-int[] SortNumbers(int[] nums)
+// Задача с прошлого семинара
+// Попробуем оценить, какая из сортировок оптимальнее
+void SortNumbers(int[] nums)
 {
-    if (nums == null) return new int[0];
     int size = nums.Length;
     int[] temp = new int[nums.Length];
-    for(int i = 0; i < size; i++)
-    {
-        temp[i] = nums[i];
-    }
 
-    // System.Array.Sort(temp);
-    // Выполняем сортировку пузырьком:
     for(int i = 0; i < size-1; i++)
     {
         for(int j = 0; j < size-1; j++)
@@ -22,8 +17,17 @@ int[] SortNumbers(int[] nums)
             }
         }
     }
-// Код работает, но насколько он хорош?
+
+}
 
 
-    return temp;
+int a = 123; // 1 шаг
+int b = 312; // 1 шаг
+int c = a + b; // 1 шаг
+
+int n = new Random().Next(1, 1000000);
+
+for(int i = 0; i < n; i++)
+{
+    c =+ i; // n шагов
 }
