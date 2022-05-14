@@ -1,37 +1,37 @@
 // Задача с прошлого семинара
 // Попробуем оценить, какая из сортировок оптимальнее
-void SortNumbers(int[] nums)
-{
-    int size = nums.Length;
-    int[] temp = new int[nums.Length];
+// void SortNumbers(int[] nums)
+// {
+//     int size = nums.Length;
+//     int[] temp = new int[nums.Length];
 
-    for(int i = 0; i < size-1; i++)
-    {
-        for(int j = 0; j < size-1; j++)
-        {
-            if(temp[j]>temp[j+1])
-            {
-                int t = temp[j];
-                temp[j] = temp[j+1];
-                temp[j+1] = t;
-            }
-        }
-    }
+//     for(int i = 0; i < size-1; i++)
+//     {
+//         for(int j = 0; j < size-1; j++)
+//         {
+//             if(temp[j]>temp[j+1])
+//             {
+//                 int t = temp[j];
+//                 temp[j] = temp[j+1];
+//                 temp[j+1] = t;
+//             }
+//         }
+//     }
 
-}
+// }
 
 // Правила определения сложности алгоритмов:
 //1. Если некоторой функции f(n) требуется n шагов, мы можем сказать, что сложность нашего алгоритма - О(n)
-int a = 123; // 1 шаг
-int b = 312; // 1 шаг
-int c = a + b; // 1 шаг
+// int a = 123; // 1 шаг
+// int b = 312; // 1 шаг
+// int c = a + b; // 1 шаг
 
-int n = new Random().Next(1, 1000000);
+// int n = new Random().Next(1, 1000000);
 
-for(int i = 0; i < n; i++)
-{
-    c =+ i; // n шагов
-}
+// for(int i = 0; i < n; i++)
+// {
+//     c =+ i; // n шагов
+// }
 
 // 2. Если у нас есть какой-то код который зависит от n (например f(n)) 
 // и еще код, который зависит от n (например g(n)), 
@@ -48,3 +48,53 @@ for(int i = 0; i < n; i++)
     c =+ i; // n шагов      k(n)
 }
 // f(n) + g(1) + h(2) + k(n)
+
+
+// 4. Если в процессе выполнения одного куска кода сложностью f(n), 
+// нам приходится выполнять еще какой-то код сложностью g(n) 
+// то общую производительность (симптоматику) мы можем свести к композиции f(n) * g(n)
+// Это значит, что если у нас есть какой-то кусочек кода (например цикл for), 
+// и внутри него будет выполняться какой-то другой кусочек кода (вложенный цикл for)
+
+
+
+int a = 123; 
+int b = 312; 
+int c = a + b; 
+
+int n = new Random().Next(1, 1000000);
+int m = new Random().Next(1, 1000000);
+
+for(int i = 0; i <= n; i++)
+{
+    for(int j = 0; i <= n; i++)
+    {
+        c += i*j;
+
+    }
+}
+// f(n) * g(n)
+
+
+// Попробуем дать оценку сложности кода:
+void SortNumbers(int[] nums)
+{
+    int n = nums.Length; //все зависит от длины массива
+    int[] temp = new int[nums.Length];
+
+    for(int i = 0; i < size-1; i++)
+    {
+        for(int j = 0; j < size-1; j++) //n^2
+        {
+            if(temp[j]>temp[j+1])
+            {
+                int t = temp[j];
+                temp[j] = temp[j+1];
+                temp[j+1] = t;
+            }
+        }
+    }
+
+}
+
+int[] arr = {1, 3, 4, 2, 6, 5, 7};
