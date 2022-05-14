@@ -36,17 +36,17 @@
 // 2. Если у нас есть какой-то код который зависит от n (например f(n)) 
 // и еще код, который зависит от n (например g(n)), 
 // то общая сложность определяется как сумма двух этих функций: f(n)+g(n)
-int a = 123; // 1 шаг  f(1)
-int b = 312; // 1 шаг  g(1)
-int c = a + b; // 1 шаг + 1 шаг (отдельно сложение, отдельно присваивание)   h(2)
-//                итого 4 шага
+// int a = 123; // 1 шаг  f(1)
+// int b = 312; // 1 шаг  g(1)
+// int c = a + b; // 1 шаг + 1 шаг (отдельно сложение, отдельно присваивание)   h(2)
+// //                итого 4 шага
 
-int n = new Random().Next(1, 1000000);
+// int n = new Random().Next(1, 1000000);
 
-for(int i = 0; i < n; i++)
-{
-    c =+ i; // n шагов      k(n)
-}
+// for(int i = 0; i < n; i++)
+// {
+//     c =+ i; // n шагов      k(n)
+// }
 // f(n) + g(1) + h(2) + k(n)
 
 
@@ -58,21 +58,21 @@ for(int i = 0; i < n; i++)
 
 
 
-int a = 123; 
-int b = 312; 
-int c = a + b; 
+// int a = 123; 
+// int b = 312; 
+// int c = a + b; 
 
-int n = new Random().Next(1, 1000000);
-int m = new Random().Next(1, 1000000);
+// int n = new Random().Next(1, 1000000);
+// int m = new Random().Next(1, 1000000);
 
-for(int i = 0; i <= n; i++)
-{
-    for(int j = 0; i <= n; i++)
-    {
-        c += i*j;
+// for(int i = 0; i <= n; i++)
+// {
+//     for(int j = 0; i <= n; i++)
+//     {
+//         c += i*j;
 
-    }
-}
+//     }
+// }
 // f(n) * g(n)
 
 
@@ -80,21 +80,26 @@ for(int i = 0; i <= n; i++)
 void SortNumbers(int[] nums)
 {
     int n = nums.Length; //все зависит от длины массива
-    int[] temp = new int[nums.Length];
 
-    for(int i = 0; i < size-1; i++)
+    for(int i = 0; i < n; i++)
     {
-        for(int j = 0; j < size-1; j++) //n^2
+        for(int j = 0; j < n-1; j++) 
         {
-            if(temp[j]>temp[j+1])
+            if(nums[j] > nums[j+1])
             {
-                int t = temp[j];
-                temp[j] = temp[j+1];
-                temp[j+1] = t;
+                int t = nums[j]; 
+                nums[j] = nums[j+1]; 
+                nums[j+1] = t; 
             }
         }
+        System.Console.WriteLine($"{i}: {(String.Join(' ', nums))}");
     }
 
 }
 
 int[] arr = {1, 3, 4, 2, 6, 5, 7};
+System.Console.WriteLine($"   {String.Join(' ', arr)}");
+
+SortNumbers(arr);
+
+System.Console.WriteLine($"   {String.Join(' ', arr)}");
