@@ -18,5 +18,5 @@ i = 0
 for count in counter:
     for i in count:
         data[i] = count# пробежимся по количеству элементов, которые хранятся в counter
-        i++
+        i += i
 
